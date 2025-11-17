@@ -37,25 +37,32 @@ Follow these instructions to run the app on your computer.
 
 ### Step 1: Clone or Download the Project
 
-```bash
+```
 git clone https://github.com/your-username/heart-disease-prediction.git
 cd heart-disease-prediction
-
+```
 If you don't have git, just download the ZIP and extract it.
 
+
 ### Step 2: Create a Virtual Environment (Recommended)
-bashpython -m venv venv
+```
+python -m venv venv
+```
 Activate it:
 
-Windows:bashvenv\Scripts\activate
-Mac/Linux:bashsource venv/bin/activate
+Windows:bash
+```venv\Scripts\activate```
+Mac/Linux:bash
+```source venv/bin/activate```
 
-You’ll see (venv) in your terminal — this means the environment is active.
 
 Step 3: Install Required Packages
-bashpip install -r requirements.txt
+bash
+```pip install -r requirements.txt```
 If requirements.txt is missing, run this instead:
-bashpip install streamlit pandas scikit-learn joblib numpy matplotlib seaborn
+bash
+```pip install streamlit pandas scikit-learn joblib numpy matplotlib seaborn```
 
 Step 4: Run the Streamlit App
-bashstreamlit run app.py
+bash
+```streamlit run app.py```
